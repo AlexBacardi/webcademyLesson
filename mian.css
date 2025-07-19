@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    height: 200px;
+    background-color: rgb(255, 123, 0);
+}
+
+section {
+    flex-grow: 1;
+    background-color: rgba(86, 160, 92, 0.959);
+    font-size: 18px;
+}
+
+footer {
+    margin-top: auto;
+    height: 200px;
+}
